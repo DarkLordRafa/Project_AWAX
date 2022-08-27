@@ -1,0 +1,95 @@
+
+.contact-us{
+	background-color: #EEE;
+	padding-bottom: 10vw;
+}
+
+.contact-us input:not(:last-child), .contact-us input[type="email"]{
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	border: 0;
+	outline: none;
+	border-bottom: 2px solid #A9A9A9;
+	width: 100%;
+	margin-bottom: 10vw;
+	font-size: 4vw;
+	background-color: transparent;
+}
+
+.contact-us input::placeholder, .contact-us input[type="email"]{
+	color: #A9A9A9;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.contact-us .section-button{
+	border: 0;
+	outline: none;
+}
+
+.contact-us h3{
+	margin-bottom: 14vw;
+}
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+.contact-us{
+	padding-bottom: 8vw;
+}
+
+.contact-us input:not(:last-child){
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+	margin-bottom: 8vw;
+	font-size: 3vw;
+}
+
+.contact-us h3{
+	margin-bottom: 10vw;
+	}
+}
+
+
+
+@media (min-width: 1024px){
+.contact-us{
+	padding-bottom: 7vh;
+}
+
+.contact-us form{
+	width: 40vw;
+}
+
+.contact-us input:not(:last-child), .contact-us input[type="email"]{
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	border-bottom: 2px solid #A9A9A9;
+	margin-bottom: 2vh;
+	font-size: 1vw;
+}
+
+.contact-us input[name="subject"]{
+	margin-bottom: 10vh;
+}
+
+.contact-us input[name="message"]{
+	margin-bottom: 6vh;
+}
+
+.contact-us .user-area{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-us .user-area input{
+	width: 45%;
+	margin-bottom: 4vh;
+}
+
+.contact-us h3{
+	margin-bottom: 10vh;
+	}
+}

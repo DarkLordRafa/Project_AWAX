@@ -1,0 +1,148 @@
+
+.prices{
+	background-color: #EEE;
+	padding-bottom: 10vw;
+}
+
+.prices__cards{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.prices__card{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10vw;
+	margin-bottom: 3vw;
+	width: 100%;
+}
+
+.prices .section-button{
+	background-color: black;
+	margin-top: 10vw;
+}
+
+.prices .section-button:hover{
+	background-color: #B28756;
+}
+
+.prices h4{
+	font-weight: 600;
+	font-size: 4.5vw;
+}
+
+.prices__price{
+	font-weight: 700;
+	font-size: 6vw;
+}
+
+.prices h5{
+	font-weight: 600;
+	color: #A9A9A9;
+	font-size: 3.5vw;
+	margin-bottom: 5vw;
+}
+
+.prices h6{
+	font-weight: 400;
+	font-size: 4vw;
+}
+
+.prices__line{
+	height: 1px;
+	width: 5%;
+	background-color: black;
+	margin-top: 1.5vw;
+	margin-bottom: 1vw;
+}
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+.prices{
+	padding-bottom: 8vw;
+}
+
+.prices__card{
+	padding: 8vw;
+	margin-bottom: 2vw;
+}
+
+.prices .section-button{
+	margin-top: 8vw;
+}
+
+.prices h4{
+	font-size: 3.5vw;
+}
+
+.prices__price{
+	font-size: 5vw;
+}
+
+.prices h5{
+	font-size: 3vw;
+	margin-bottom: 4vw;
+}
+
+.prices h6{
+	font-size: 3.5vw;
+}
+
+.prices__line{
+	width: 4%;
+	}
+}
+
+
+
+@media (min-width: 1024px){
+.prices{
+	padding-bottom: 7vh;
+}
+
+.prices__cards{
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.prices__card{
+	padding: 5vh;
+	margin-bottom: 0;
+	width: 30%;
+}
+
+.prices .section-button{
+	margin-top: 3vh;
+}
+
+.prices h4{
+	font-size: 1.7vw;
+}
+
+.prices__price{
+	font-size: 3vw;
+}
+
+.prices h5{
+	font-size: 1.2vw;
+	margin-bottom: 3.5vh;
+}
+
+.prices h6{
+	font-size: 1vw;
+}
+
+.prices__line{
+	height: 1px;
+	width: 10%;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	}
+}

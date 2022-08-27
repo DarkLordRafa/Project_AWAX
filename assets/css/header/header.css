@@ -1,0 +1,187 @@
+
+header{
+	background-color: black;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: 25vw;
+	width: 100%;
+	position: fixed;
+	z-index: 97;
+	top: 0;
+	display: flex;
+	justify-content: center;
+}
+
+header .header__container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+.header__logo{
+	height: 12vw;
+	margin-left: 5vw;
+}
+
+.header__mobile-icons{
+	display: flex;
+	align-items: center;
+}
+
+.mobile-tel-icon{
+	height: 13vw;
+	margin-right: 8vw;
+}
+
+.mobile-menu-icon{
+	margin-right: 3vw;
+	height: 8vw;
+}
+
+.header__desktop-menu{
+	display: none;
+	color: white;
+}
+
+.mobile-menu-area{
+	position: fixed;
+	z-index: 98;
+	width: 0%;
+	right: 0;
+	height: calc(100% - 25vw);
+	top: 25vw;
+}
+
+.header__mobile-menu{
+	position: absolute;
+	right: 0;
+	background-color: rgba(00, 00, 00, 0.8);
+	color: white;
+	width: 0%;
+	height: 120%;
+	font-size: 4.5vw;
+	font-weight: bold;
+	padding-top: 5vw;
+	transition: ease-in-out 0.3s;
+	z-index: 99;
+}
+
+.header__mobile-menu ul li{
+	padding-top: 3.5vw;
+	padding-bottom: 3.5vw;
+	padding-right: 10vw;
+	margin-left: 12vw;
+	white-space: nowrap;
+	color: white;
+	text-transform: uppercase;
+}
+
+.header__mobile-menu li:hover{
+	color: #B28756;
+}
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+header{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	height: 20vw;
+}
+
+.header__logo{
+	height: 10vw;
+	margin-left: 3vw;
+}
+
+.mobile-tel-icon{
+	height: 10vw;
+	margin-right: 6vw;
+}
+
+.mobile-menu-icon{
+	height: 7vw;
+	margin-right: 2vw;
+}
+
+.mobile-menu-area{
+	height: calc(100% - 20vw);
+	top: 20vw;
+}
+
+.header__mobile-menu{
+	font-size: 3.5vw;
+	padding-top: 3vw;
+}
+
+.header__mobile-menu ul li{
+	padding-top: 2.5vw;
+	padding-bottom: 2.5vw;
+	padding-right: 8vw;
+	margin-left: 10vw;
+	}
+}
+
+
+
+@media (min-width: 1024px){
+header{
+	padding-bottom: 0;
+	padding-top: 5vh;
+	height: auto;
+	position: static;
+	align-items: center;
+}
+
+header .header__container{
+	align-items: center;
+}
+
+.header__desktop-menu{
+	display: flex;
+	align-items: center;
+}
+
+.header__desktop-menu a{
+	color: white;
+	font-weight: bold;
+	font-size: 1vw;
+	padding-bottom: 5vh;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+	text-transform: uppercase;
+	border-bottom: 4px solid transparent;
+}
+
+.header__desktop-menu ul{
+	display: flex;
+	align-items: center;
+}
+
+.header__desktop-menu a:hover{
+	color: #B28756;
+	border-bottom: 4px solid #B28756;
+}
+
+.header__logo{
+	height: 6vh;
+	margin-left: 0;
+	margin-top: -5vh;
+}
+
+.header__mobile-icons{
+	display: none;
+}
+
+.mobile-menu-area{
+	display: none;
+}
+
+.header__mobile-menu{
+	display: none;
+	}
+}
